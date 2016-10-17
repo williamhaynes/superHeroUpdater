@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superhero Form</title>
+</head>
+<body>
+
+    <h1>List of Superheroes</h1>
+
 <?php
 /**
  * Created by PhpStorm.
@@ -39,3 +49,6 @@ while($row = $result->fetch_array()){
 $result->close();
 $db->close();
 ?>
+
+</body>
+</html>
