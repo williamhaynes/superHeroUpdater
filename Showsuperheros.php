@@ -52,3 +52,12 @@ $db->close();
 
 </body>
 </html>
+
+<!--
+CREATE TABLE `superheros` (
+  `superheroID` int(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `firstName` text COLLATE 'latin1_swedish_ci' NOT NULL,
+  `lastName` text COLLATE 'latin1_swedish_ci' NOT NULL,
+  `mainSuperPower` text COLLATE 'latin1_swedish_ci' NOT NULL
+) ENGINE='MyISAM' COLLATE 'latin1_swedish_ci' AUTO_INCREMENT=1;
+-->
