@@ -11,7 +11,7 @@
 //Take Values from html form
 $firstName = $_POST["firstName"];
 $lastName = $_POST["lastName"];
-$mainsuperhero = $_POST["mainsuperhero"];
+$mainSuperHero = $_POST["mainSuperHero"];
 
 
 //connect to server and select database
@@ -30,7 +30,7 @@ if($db->connect_errno){
 
 //create SQL query as a string
 
-$sql_query = "INSERT INTO superheros VALUES ($firstName, $lastName, $suinsuperhero)";
+$sql_query = "INSERT INTO superheros VALUES ($firstName, $lastName, $mainSuperHero)";
 
 //execute the SQL query
 
