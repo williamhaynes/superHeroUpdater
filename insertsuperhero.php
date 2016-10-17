@@ -34,9 +34,8 @@ $sql_query = "INSERT INTO superheros VALUES ($firstName, $lastName, $mainSuperHe
 
 //execute the SQL query
 
-$result = $db->query($sql_query);
+$db->query($sql_query);
 
-$result->close();
 $db->close();
 
 ?>
